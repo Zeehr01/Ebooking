@@ -180,6 +180,14 @@ public class Home extends JFrame {
 		   butsave.setFont(new Font("Lucida Handwriting", Font.PLAIN, 28));
 		   butsave.setBounds(269, 330, 201, 45);
 		   panel_admin.add(butsave);
+
+		   //ajout d'un bouton
+		   Button test = new Button("test");
+		   butsave.setForeground(Color.WHITE);
+		   butsave.setBackground(Color.DARK_GRAY);
+		   butsave.setFont(new Font("Lucida Handwriting", Font.PLAIN, 28));
+		   butsave.setBounds(269, 330, 201, 45);
+		   panel_admin.add(test);
 		   
 		   textField_1 = new JTextField();
 		   textField_1.setBounds(269, 159, 201, 34);
